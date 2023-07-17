@@ -1,0 +1,379 @@
+h1 ,h2 ,h3,h4,h5,p,span{
+    font-family: 'Roboto', sans-serif;
+}
+body{
+    background-color: #f1f1f1;
+}
+
+.cont-about{
+
+    padding: 50px 0;
+    background-color: #fff;
+    box-shadow:rgba(0, 0, 0, 0.06) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;;
+}
+
+.cont-all{
+
+    margin:50px auto;
+}
+.navbar{
+    padding: 10px 0px;
+}
+.navbar a:hover{
+    border-bottom: #fff solid ;
+}
+.navbar a, .navbar a:focus {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 0;
+    white-space: nowrap;
+    transition: 0.3s;
+    letter-spacing: 0.4px;
+    position: relative;
+    text-transform: uppercase;
+}
+
+.bg-header{
+    background-image: url('../image/hero-bg.jpg') !important;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+}
+.bg-header .overlay{ 
+    background-color: rgba(0, 0, 0, 0.6);
+    height: 100vh;
+}
+.bg-header .overlay h1{
+    line-height: 86.4px;
+    font-size: 72px;
+    font-weight: 600;
+    color: #ffff;
+}
+
+
+.bg-header p{
+    color: #fff;
+    font-size: 2.5rem;
+    font-weight: 600;
+}
+.bg-header p::after{
+    content: '';
+    animation: typing 10s infinite;
+}
+@keyframes typing{
+    0%{content: 'd|'}
+    2%{content: 'de|'}
+    4%{content: 'des|'}
+    6%{content: 'desi|'}
+    8%{content: 'desig|'}
+    10%{content: 'design|'}
+    12%{content: 'designe|'}
+    14%{content: 'designer|'}
+
+    16%{content: 'designe|'}
+    18%{content: 'design|'}
+    20%{content: 'desig|'}
+    22%{content: 'desi|'}
+    24%{content: 'des|'}
+    26%{content: 'de|'}
+    28%{content: 'd|'}
+    30%{content: 'f|'}
+    32%{content: 'fr|'}
+    34%{content: 'fre|'}
+    36%{content: 'free|'}
+    38%{content: 'freel|'}
+    40%{content: 'freela|'}
+    42%{content: 'freelan|'}
+    44%{content: 'freelanc|'}
+    46%{content: 'freelance|'}
+    48%{content: 'freelancer|'}
+    50%{content: 'freelance|'}
+    51%{content: 'freelanc|'}
+    52%{content: 'freelan|'}
+    53%{content: 'freela|'}
+    54%{content: 'freel|'}
+    55%{content: 'free|'}
+    56%{content: 'free|'}
+    57%{content: 'fre|'}
+    58%{content: 'fr|'}
+    59%{content: 'f|'}
+    60%{content: 'd|'}
+    62%{content: 'de|'}
+    64%{content: 'dev|'}
+    66%{content: 'deve|'}
+    68%{content: 'devel|'}
+    69%{content: 'develo|'}
+    70%{content: 'develop|'}
+    72%{content: 'develope|'}
+    74%{content: 'developer|'}
+    76%{content: 'develope|'}
+    78%{content: 'develop|'}
+    80%{content: 'develo|'}
+    82%{content: 'devel|'}
+    84%{content: 'deve|'}
+    86%{content: 'dev|'}
+    88%{content: 'de|'}
+    90%{content: 'd|'}
+
+
+    
+}
+
+.logo-services{
+    text-align: center;
+}
+.html,.css,.js,.php{
+    background-color:#0078ff ;
+    height:10px;
+    margin:8px 0;
+}
+.cont-skill{
+    width:100% ;
+    background-color: #ddd;
+    padding:5 0px;
+}
+.f-about,.text-about{
+    width: 90%;
+}
+.about-image ul li{
+    padding:5px 0;
+}
+.about-skill p,.info{
+    font-family: 'Roboto', sans-serif;
+    color:#1E1E1E;
+    font-size:17.6px;
+    line-height:26.4px;
+    font-weight: 600;
+}
+.about h5{
+    color: #1E1E1E;
+    font-weight: 500;
+    line-height:38.4px;
+    font-size: 32px;
+}
+.text-about p{
+margin:0px 0px 16px;
+color: #4E4E4E;
+line-height:30px;
+font-weight:200;
+font-size:20px;
+text-decoration:none solid rgb(78, 78, 78)
+
+}
+.info-details,.service-item p{
+    font-size:16px; 
+    color: #4E4E4E;
+    font-weight:400;
+    margin:0px 0px 16px;
+    line-height: 24px;
+
+}
+.service-item p{
+    padding-bottom: 48px;
+}
+.line{
+    width: 20%;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 8px 0;
+    line-height:24px;
+}
+.line-serv{
+    width: 5%;
+    height: 5px;
+    background-color: #0078ff;
+    margin: 8px auto;
+}
+.logo-services h3{
+    font-weight:700;
+    color:#1E1E1E;
+    line-height:57.6px;
+    font-size: 48px;
+}
+.service{
+    width: 100%;
+}
+.service-item h2{
+    color: #1E1E1E;
+    font-size: 22.4px;
+    line-height:26.88px;
+    margin: 0px 0px 8px;
+    padding: 10px 0px;
+    font-weight:600;
+    text-transform: uppercase;
+}
+.inner{
+   padding-top: 20px;
+    box-shadow:rgba(0, 0, 0, 0.06) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+    background-color: #fff;
+    border-radius: 10px;
+} 
+.inner:hover i{
+    background-color: #0078ff;
+    border: #ddd solid 8px;
+}
+.service-item i{
+    font-size: 40px;
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: #0078ff solid 10px;
+    color: #1E1E1E;
+  
+}
+.icon i{
+    font-size: 35px;
+    border-radius: 50%;
+    width: 90px;
+    height: 90px;
+    border: #ddd solid 8px;
+}
+.icon p{
+    padding-bottom: 20px;
+    line-height: 48px;
+    font-size: 32px;
+    font-weight: 400;
+    color: #fff;
+}
+.icon span{
+    padding-bottom: 20px;
+    line-height: 24px;
+    font-size: 16px;
+    color: #fff;
+}
+.container-bg{
+    width: 100%;
+    margin: 50px 0px;
+    background-image: url('../image/counters-bg.jpg');
+    background-position: center center;
+     background-attachment:fixed;
+     background-size:cover;
+     background-repeat: no-repeat;
+}
+.container-bg .overlay{
+    background-color: rgba(0,120 ,255 , 0.8);
+    display: flex;
+     align-items: center;
+     justify-content: center;
+    
+
+}
+.image-text h2{
+    line-height: 23.04px;
+    font-size: 19.2px;
+    font-weight: 500;
+}
+
+
+.inner-box{
+    margin-top: 10px;
+    padding-bottom: 10px;
+    box-shadow:rgba(0, 0, 0, 0.06) 0px 1px 1px 0px, rgba(0, 0, 0, 0.2) 0px 2px 5px 0px;
+    background-color: #fff;
+    padding-bottom: 20px;
+}
+.inner-box .image-text .fa-solid{
+    display: flex;
+    align-items: center; justify-content:center;
+    font-size: 20px;
+    color: #0078ff;
+    border: #0078ff solid 1px;
+    border-radius: 50%;
+    width: 30px;
+    height: 30px;
+}
+.inner-box .image img{
+    transform: scale(1);
+    transition: all 0.2;
+}
+.inner-box:hover img{
+    transform: scale(1);
+}
+.container-slide{
+    background-image: url('../image/overlay-bg.jpg');
+    background-size: cover;
+    background-position: center center;
+    background-attachment: fixed;
+}
+.carousel-indicators [data-bs-target] {
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+
+.carousel-item img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+.fa-clock{
+    font-size: 20px;
+    margin: 0px 10px;
+   vertical-align: middle;
+}
+.container-form{
+    background-image: url('../image/overlay-bg.jpg');
+    background-position: center center;
+    background-attachment: scroll;
+    background-size: contain;
+    
+}
+
+.overlay-bg{
+    z-index: 0;
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0,120 ,255 , 0.6);
+    
+    
+}
+
+.buttn button{
+    padding: 15px 30px;
+    font-size: 20px;
+    font-weight: 400;
+}
+.buttn:hover button{
+    box-shadow: rgb(205, 225, 248) 0px 0px 0px 4px;
+  background-color: #4584ccb6;
+}
+.text-touch{
+    font-weight: 300px;
+    font-size: 20px;
+    color: #4E4E4E;
+    line-height: 30px;
+}
+.in:hover .fa-brands ,.face:hover .fa-brands,.insta:hover .fa-brands,.tw:hover .fa-brands{
+    background-color: #4584ccb6;
+    color: #fff;
+    box-shadow: rgb(205, 225, 248) 0px 0px 0px 4px;
+}
+.fa-brands{
+display: flex;
+align-items: center;
+justify-content: center;
+font-size: 20px;
+width: 50px;
+height: 50px;
+border-radius: 50%;
+border: #0078ff solid;
+}
+.over-lay{
+    
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 100%;
+        height: 100%;
+        background-color: #0078ff;
+        opacity: 0.7;
+   
+}

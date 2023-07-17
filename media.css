@@ -1,0 +1,22 @@
+@media screen and (max-width: 992px) {
+    body {
+        overflow-x: hidden;
+    }
+
+ 
+}
+
+ 
+/* -------------------------- */
+@media screen and (max-width: 600px) {
+    body {
+        overflow-x: hidden;
+    }
+.about{
+    margin: auto 10px;
+}
+.about ul li{
+    margin: 15px 0;
+}
+
+}
